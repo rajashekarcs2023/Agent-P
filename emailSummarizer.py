@@ -7,7 +7,7 @@ import requests
 import json
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "gsk_E0ZAc5ILe87aQglP3QiqWGdjhvdjcvjhbbadjbcbcca"
+GROQ_API_KEY = ""
 
 class EmailSummarizer(Model):
     date: str = Field(description="The date for which to summarize emails")
