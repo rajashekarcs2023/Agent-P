@@ -5,7 +5,7 @@ import requests
 import json
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "gsk_E0ZAc5ILe87aQglP3QiqvjssejhgbkjdbugelOk5zSrvINlc75A"
+GROQ_API_KEY = ""
 
 class GradeReportRequest(Model):
     course_name: str = Field(description="The name of the course for which to generate a grade report")
