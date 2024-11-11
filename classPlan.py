@@ -5,7 +5,7 @@ import requests
 import json
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "gsk_E0ZAc5ILe87aQvhfsjhbfhjbzbcaGelOk5zSrvINlc75A"
+GROQ_API_KEY = ""
 
 class ClassPlanRequest(Model):
     lecture_date: str = Field(description="The date for which to prepare the class plan")
